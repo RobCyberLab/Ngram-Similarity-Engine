@@ -177,9 +177,27 @@ You can then store these similarities and sort them in descending order to find 
 ### Result  
 Top 500 similarities are written to two separate `.txt` files for raw and filtered data.  
 
+<p align="center">
+  <img src="example4.png" alt="something" width="500">
+  <br>
+  <em>Ex4: Raw VS Filtered Data</em>
+</p>
+
 #### Example Analysis:
 1. **Assignment a01, Students s0037 & s0047, Similarity = 1.0**:
    - **Total Commander** and a comparison tool confirm that differences are limited to comments.
+
+<p align="center">
+  <img src="example3.4.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim1</em>
+  <br>
+  <br>
+  <img src="example3.5.png" alt="something" width="500">
+  <br>
+  <em>Ex4: Raw VS Filtered Data</em>
+</p>
+
 2. **Assignment a02, Students s0060 & s0147, Similarity = 1.0**:
    - Confirmed identical code.
 
