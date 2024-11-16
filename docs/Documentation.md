@@ -118,6 +118,19 @@ Where:
 </p>
 
 - For different entries: Similarity is small.
+
+<p align="center">
+  <img src="example3.2.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim1</em>
+  <br>
+  <br>
+  <img src="example3.3.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim2</em>
+</p>
+
+
 - Non-existent database entries: Similarity = **0**.
 
 ---
