@@ -1,4 +1,4 @@
-# Ngram-Similarity-Engine 📚
+# 🤖Ngram-Similarity-Engine📚
 
 In this project, we will use extracted n-grams to build a database of features for a collection of programs.
 
