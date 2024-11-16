@@ -1,7 +1,5 @@
 # Project Instructions 🧪
 
----
-
 ## Table of Contents
 1. [Build Raw Database](#build-raw-database-)
 2. [Filter Raw Database](#filter-raw-database-)
