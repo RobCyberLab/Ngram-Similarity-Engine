@@ -188,14 +188,14 @@ Top 500 similarities are written to two separate `.txt` files for raw and filter
    - **Total Commander** and a comparison tool confirm that differences are limited to comments.
 
 <p align="center">
-  <img src="example3.4.png" alt="something" width="500">
+  <img src="example4.1.png" alt="something" width="500">
   <br>
-  <em>Ex3: Function sim1</em>
+  <em>Ex3: Ttal Commander</em>
   <br>
   <br>
-  <img src="example3.5.png" alt="something" width="500">
+  <img src="example4.2.png" alt="something" width="200">
   <br>
-  <em>Ex4: Raw VS Filtered Data</em>
+  <em>Ex4: Comparison Tool</em>
 </p>
 
 2. **Assignment a02, Students s0060 & s0147, Similarity = 1.0**:
