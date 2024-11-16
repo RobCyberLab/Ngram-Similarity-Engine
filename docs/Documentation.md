@@ -111,6 +111,7 @@ Where:
   <br>
   <em>Ex3: Function sim1</em>
   <br>
+  <br>
   <img src="example3.1.png" alt="something" width="500">
   <br>
   <em>Ex3: Function sim2</em>
