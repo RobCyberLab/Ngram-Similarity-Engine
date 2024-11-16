@@ -71,6 +71,19 @@ Implement two functions for calculating Jaccard similarity:
 2. Retrieves n-grams corresponding to the assignment and each student.
 3. Calculates and returns the Jaccard similarity between the two sets of n-grams.
 
+### Jaccard Similarity Formula
+The Jaccard similarity is calculated as the size of the intersection of two sets divided by the size of the union of the two sets.
+
+For sets \( A \) and \( B \), the Jaccard similarity \( J(A, B) \) is given by:
+
+\[
+J(A, B) = \frac{|A \cap B|}{|A \cup B|}
+\]
+
+Where:
+- \( |A \cap B| \) is the number of common elements in both sets.
+- \( |A \cup B| \) is the total number of unique elements across both sets.
+
 ### Results  
 - For assignment 1, students 37 and 47 (identical): Jaccard similarity = **1.0**.
 - For different entries: Similarity is small.
@@ -91,6 +104,21 @@ For each assignment, calculate Jaccard similarity between all pairs of submissio
 3. Store results in a list of tuples: `(assignment, student1, student2, similarity)`.
 4. Sort the list in descending order by similarity.
 5. Return the top 500 pairs.
+
+### Jaccard Similarity Formula
+For each pair of submissions \( (s1, s2) \), calculate Jaccard similarity using the formula:
+
+\[
+J(A_{s1}, A_{s2}) = \frac{|A_{s1} \cap A_{s2}|}{|A_{s1} \cup A_{s2}|}
+\]
+
+Where:
+- \( A_{s1} \) is the set of n-grams for student 1.
+- \( A_{s2} \) is the set of n-grams for student 2.
+- \( A_{s1} \cap A_{s2} \) is the intersection of n-grams from both students.
+- \( A_{s1} \cup A_{s2} \) is the union of n-grams from both students.
+
+You can then store these similarities and sort them in descending order to find the top 500 most similar pairs.
 
 ### Result  
 Top 500 similarities are written to two separate `.txt` files for raw and filtered data.  
