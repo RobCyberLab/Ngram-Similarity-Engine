@@ -105,6 +105,17 @@ Where:
 
 ### Results  
 - For assignment 1, students 37 and 47 (identical): Jaccard similarity = **1.0**.
+
+<p align="center">
+  <img src="example3.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim1</em>
+  <br>
+  <img src="example3.1.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim2</em>
+</p>
+
 - For different entries: Similarity is small.
 - Non-existent database entries: Similarity = **0**.
 
