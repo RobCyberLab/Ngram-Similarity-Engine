@@ -190,7 +190,7 @@ Top 500 similarities are written to two separate `.txt` files for raw and filter
 <p align="center">
   <img src="example4.1.png" alt="something" width="500">
   <br>
-  <em>Ex3: Total Commander</em>
+  <em>Ex4: Total Commander</em>
   <br>
   <br>
   <img src="example4.2.png" alt="something" width="200">
@@ -204,7 +204,7 @@ Top 500 similarities are written to two separate `.txt` files for raw and filter
 <p align="center">
   <img src="example4.3.png" alt="something" width="500">
   <br>
-  <em>Ex3: Total Commander</em>
+  <em>Ex4: Total Commander</em>
   <br>
   <br>
   <img src="example4.4.png" alt="something" width="200">
@@ -214,8 +214,29 @@ Top 500 similarities are written to two separate `.txt` files for raw and filter
 
 ### Graph Analysis
 1. **Threshold 50%**: Broad distribution includes many false positives.
+
+<p align="center">
+  <img src="example5.png" alt="something" width="500">
+  <br>
+  <em>Threshold 50%</em>
+</p>
+
+
 2. **Threshold 80%**: Concentrated distribution, optimal sensitivity/specificity trade-off.
+
+<p align="center">
+  <img src="example5.1.png" alt="something" width="500">
+  <br>
+  <em>Threshold 80%</em>
+</p>
+
 3. **Threshold 90%**: Misses genuine plagiarism cases.
+
+<p align="center">
+  <img src="example5.2.png" alt="something" width="500">
+  <br>
+  <em>Threshold 90%</em>
+</p>
 
 #### Conclusion
 Threshold **80%** provides the best compromise between sensitivity and specificity.
