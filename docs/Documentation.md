@@ -130,8 +130,18 @@ Where:
   <em>Ex3: Function sim2</em>
 </p>
 
-
 - Non-existent database entries: Similarity = **0**.
+
+<p align="center">
+  <img src="example3.4.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim1</em>
+  <br>
+  <br>
+  <img src="example3.5.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Function sim2</em>
+</p>
 
 ---
 
