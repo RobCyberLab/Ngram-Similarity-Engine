@@ -54,6 +54,13 @@ Based on the collection from the previous exercise, construct a new SQLite datab
 ### Result  
 After verification:
 - The sequence `"mov", "add", "mov", "mov", "mov"` is removed as it appears in more than 30 files for the same assignment.
+
+<p align="center">
+  <img src="example2.png" alt="something" width="500">
+  <br>
+  <em>Ex2: "mov", "add", "mov", "mov", "mov"</em>
+</p>
+
 - Sequences like `"mov", "call", "movabs", "hlt", "push"` remain unchanged as they occur less frequently.
 
 ---
