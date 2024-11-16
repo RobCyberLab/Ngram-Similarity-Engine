@@ -28,7 +28,13 @@ Construct an SQLite database `features_raw.db` containing a table `Homeworks` wi
 6. Calculates the hash of the n-grams for each executable file and stores them alongside the assignment name and student name in the raw database.
 
 ### Result  
-The number of entries in the database equals the number of files in the target folder.
+The number of entries in the database equals the number of files in the target folder, equal to 946.
+
+<p align="center">
+  <img src="example1.png" alt="Database" width="500">
+  <br>
+  <em>Ex1: Database</em>
+</p>
 
 ---
 
