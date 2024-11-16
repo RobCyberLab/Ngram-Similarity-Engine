@@ -1,14 +1,14 @@
-# Project Instructions 🧪
+# Project Instructions🧪
 
-## Table of Contents
-1. [Build Raw Database](#build-raw-database-)
-2. [Filter Raw Database](#filter-raw-database-)
-3. [Jaccard Similarity Functions](#jaccard-similarity-functions-)
-4. [Pairwise Similarity Analysis](#pairwise-similarity-analysis-)
+## Table of Contents📑
+1. [Build Raw Database](#build-raw-database)
+2. [Filter Raw Database](#filter-raw-database)
+3. [Jaccard Similarity Functions](#jaccard-similarity-functions)
+4. [Pairwise Similarity Analysis](#pairwise-similarity-analysis)
 
 ---
 
-## Build Raw Database 📂
+## Build Raw Database📂
 
 ### Problem  
 Construct an SQLite database `features_raw.db` containing a table `Homeworks` with the following columns:
@@ -36,7 +36,7 @@ The number of entries in the database equals the number of files in the target f
 
 ---
 
-## Filter Raw Database 🗑️
+## Filter Raw Database🗑️
 
 ### Problem  
 Based on the collection from the previous exercise, construct a new SQLite database `features.db` with the same structure. Remove n-grams that appear in more than **T = 30** files.
@@ -69,7 +69,7 @@ After verification:
 
 ---
 
-## Jaccard Similarity Functions 🧮
+## Jaccard Similarity Functions🧮
 
 ### Problem  
 Implement two functions for calculating Jaccard similarity:
@@ -143,7 +143,7 @@ Where:
 
 ---
 
-## Pairwise Similarity Analysis 🔍
+## Pairwise Similarity Analysis🔍
 
 ### Problem  
 For each assignment, calculate Jaccard similarity between all pairs of submissions. Generate a top 500 most similar pairs for each of the two databases. Analyze the source code for 10 pairs from each top list.
