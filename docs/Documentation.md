@@ -190,7 +190,7 @@ Top 500 similarities are written to two separate `.txt` files for raw and filter
 <p align="center">
   <img src="example4.1.png" alt="something" width="500">
   <br>
-  <em>Ex3: Ttal Commander</em>
+  <em>Ex3: Total Commander</em>
   <br>
   <br>
   <img src="example4.2.png" alt="something" width="200">
@@ -200,6 +200,17 @@ Top 500 similarities are written to two separate `.txt` files for raw and filter
 
 2. **Assignment a02, Students s0060 & s0147, Similarity = 1.0**:
    - Confirmed identical code.
+
+<p align="center">
+  <img src="example4.3.png" alt="something" width="500">
+  <br>
+  <em>Ex3: Total Commander</em>
+  <br>
+  <br>
+  <img src="example4.4.png" alt="something" width="200">
+  <br>
+  <em>Ex4: Comparison Tool</em>
+</p>
 
 ### Graph Analysis
 1. **Threshold 50%**: Broad distribution includes many false positives.
