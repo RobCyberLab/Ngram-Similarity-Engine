@@ -76,9 +76,9 @@ The Jaccard similarity is calculated as the size of the intersection of two sets
 
 For sets \( A \) and \( B \), the Jaccard similarity \( J(A, B) \) is given by:
 
-\[
+$$
 J(A, B) = \frac{|A \cap B|}{|A \cup B|}
-\]
+$$
 
 Where:
 - \( |A \cap B| \) is the number of common elements in both sets.
@@ -108,9 +108,9 @@ For each assignment, calculate Jaccard similarity between all pairs of submissio
 ### Jaccard Similarity Formula
 For each pair of submissions \( (s1, s2) \), calculate Jaccard similarity using the formula:
 
-\[
+$$
 J(A_{s1}, A_{s2}) = \frac{|A_{s1} \cap A_{s2}|}{|A_{s1} \cup A_{s2}|}
-\]
+$$
 
 Where:
 - \( A_{s1} \) is the set of n-grams for student 1.
