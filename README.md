@@ -2,6 +2,8 @@
 
 In this project, we will use extracted n-grams to build a database of features for a collection of programs.
 
+Note: Due to privacy policies, I am not allowed to post the dataset publicly.
+
 ---
 
 ## Table of Contents 📑
