@@ -63,6 +63,12 @@ After verification:
 
 - Sequences like `"mov", "call", "movabs", "hlt", "push"` remain unchanged as they occur less frequently.
 
+<p align="center">
+  <img src="example2.2.png" alt="something" width="500">
+  <br>
+  <em>Ex2: "mov", "call", "movabs", "hlt", "push"</em>
+</p>
+
 ---
 
 ## Exercise 3: Jaccard Similarity Functions 🧮
