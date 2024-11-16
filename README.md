@@ -6,23 +6,23 @@ Note: Due to privacy policies, I am not allowed to post the dataset publicly.
 
 ---
 
-## Table of Contents 📑
-1. [Introduction](#introduction-)
-2. [Building the SQLite Database](#building-the-sqlite-database-)
-3. [Filtering Frequent N-Grams](#filtering-frequent-n-grams-)
-4. [Implemented Features](#implemented-features-)
-5. [Similarity Calculation](#similarity-calculation-)
-6. [Analysis and Conclusions](#analysis-and-conclusions-)
+## Table of Contents📑
+1. [Introduction](#introduction)
+2. [Building the SQLite Database](#building-the-sqlite-database)
+3. [Filtering Frequent N-Grams](#filtering-frequent-n-grams)
+4. [Implemented Features](#implemented-features)
+5. [Similarity Calculation](#similarity-calculation)
+6. [Analysis and Conclusions](#analysis-and-conclusions)
 
 ---
 
-## Introduction 📘
+## Introduction📘
 
 In this project, we will create and analyze SQLite databases that store n-grams extracted from student files. The goal is to apply methods for storage, filtering, and similarity analysis to detect patterns and relationships between programs.
 
 ---
 
-## Building the SQLite Database 🛠️
+## Building the SQLite Database🛠️
 
 1. **SQLite Database `raw.db`**  
    Contains a `Homeworks` table with the following structure:  
@@ -33,14 +33,14 @@ In this project, we will create and analyze SQLite databases that store n-grams 
 
 ---
 
-## Filtering Frequent N-Grams 🗂️
+## Filtering Frequent N-Grams🗂️
 
 2. **SQLite Database `features.db`**  
    Based on `raw.db`, this database is built with the same structure but excludes n-grams that appear in more than `T` files (where `T = 30` is suggested).  
 
 ---
 
-## Implemented Features 🧩
+## Implemented Features🧩
 
 3. **Functions**:  
    - `sim1(db, h1, h2)`  
@@ -51,7 +51,7 @@ In this project, we will create and analyze SQLite databases that store n-grams 
 
 ---
 
-## Similarity Calculation 📊
+## Similarity Calculation📊
 
 4. **For each assignment**:  
    - Calculate the similarity between all pairs of submissions.  
@@ -62,14 +62,14 @@ In this project, we will create and analyze SQLite databases that store n-grams 
 
 ---
 
-## Analysis and Conclusions 🔍
+## Analysis and Conclusions🔍
 
 - The analysis of similar pairs provides insights into potential common patterns or plagiarism among students.  
 - Using n-grams and the optimized database (`features.db`) helps reduce noise caused by frequently used elements.  
 
 ---
 
-### Instructions for Use 💾
+### Instructions for Use💾
 1. Build the `raw.db` database using the initial collection of files.  
 2. Apply filtering to create the `features.db` database.  
 3. Implement the `sim1` and `sim2` functions.  
